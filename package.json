@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,8 +21,12 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "classlist.js": "^1.1.20150312",
     "core-js": "^2.4.1",
+    "intl": "^1.2.5",
+    "rimraf": "^2.6.1",
     "rxjs": "^5.1.0",
+    "web-animations-js": "^2.3.1",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
