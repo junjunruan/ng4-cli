@@ -9,7 +9,7 @@ video {
     width: 500px;
     height: 500px;
     object-fit: contain;
-    object-position: top left;
+    object-position: top right;
     font-family: 'object-fit: contain; object-position: top right;';
 }
 

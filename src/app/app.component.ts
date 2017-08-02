@@ -9,7 +9,7 @@ declare var objectFitVideos: any;
 export class AppComponent {
   title = 'app';
 
-  ngOnInit() {
+  ngAfterViewInit() {
     objectFitVideos();
   }
 }
