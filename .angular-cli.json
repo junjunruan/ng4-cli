@@ -22,7 +22,7 @@
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/object-fit-videos/dist/object-fit-videos.min.js"
+
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

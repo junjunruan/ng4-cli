@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-declare var objectFitVideos: any;
+
 
 @Component({
   selector: 'app-root',
@@ -8,8 +8,4 @@ declare var objectFitVideos: any;
 })
 export class AppComponent {
   title = 'app';
-
-  ngAfterViewInit() {
-    objectFitVideos();
-  }
 }
