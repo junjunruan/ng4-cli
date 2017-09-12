@@ -63,7 +63,7 @@ cornerstoneWebImageLoader = {};
 
         function getPixelData()
         {
-            console.log('getPixelData');
+            console.log('getPixelData()');
             var imageData = getImageData();
             var imageDataData = imageData.data;
             var numPixels = image.naturalHeight * image.naturalWidth;
@@ -78,7 +78,7 @@ cornerstoneWebImageLoader = {};
                 storedPixelData[storedPixelDataIndex++] = 255; // alpha
                 imageDataIndex++;
             }
-            console.log('Foor loop time:' + (new Date().getTime()/1000 - startLoopTime));
+            console.log('Four loop time:' + (new Date().getTime()/1000 - startLoopTime));
             return storedPixelData;
         }
 
