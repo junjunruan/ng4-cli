@@ -23,11 +23,7 @@
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
         "app/cornerstone/cornerstone.orig.js",
-        "app/cornerstoneMath/cornerstoneMath.orig.js",
-        "app/cornerstone/cornerstone.overwrite.js",
-        "app/cornerstoneWebImageLoader/cornerstoneWebImageLoader.orig.js",
-        "app/cornerstoneWebImageLoader/cornerstoneWebImageLoader.overwrite.js",
-        "app/cornerstone/exampleImageIdLoader.js"
+        "app/cornerstoneWebImageLoader/cornerstoneWebImageLoader.orig.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
