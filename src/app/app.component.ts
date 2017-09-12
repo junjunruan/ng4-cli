@@ -1,6 +1,4 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-// Need jQuery for events only
-declare var $: any;
 
 @Component({
   selector: 'app-root',
