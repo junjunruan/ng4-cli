@@ -21,4 +21,4 @@ This repo is forked from [Angular CLI](https://github.com/angular/angular-cli), 
 
 6. Click "window leveling" button multiple times, the time cost of for loop from cornerstone library will output in the console. The performance is bad from the second button click.
 
-<a href="https://imgur.com/xdpzc6n"><img src="https://i.imgur.com/xdpzc6n.png" title="source: imgur.com" width="400"  /></a>
+<a href="https://imgur.com/K9l87ub"><img src="https://i.imgur.com/K9l87ub.png" title="source: imgur.com" width="300" /></a>
