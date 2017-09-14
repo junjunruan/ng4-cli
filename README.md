@@ -1,28 +1,24 @@
-# Ng4Cli
+# Angular4 + CLI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+This repo is forked from [Angular CLI](https://github.com/angular/angular-cli), then added a third party library cornerstone to do window leveling on image.
 
-## Development server
+1. Before run the application, install:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- node: 6.11.3
+- yarn: 0.24.5
 
-## Code scaffolding
+2. Use command `yarn install` to install `node_modules`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+3. Run command `yarn run start` to run the application
 
-## Build
+4. Because of CORS issue during access the cloud image (see details: http://rawgit.com/chafey/cornerstoneWebImageLoader/master/examples/index.html), open a new terminal and do the following steps to fix it:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+   4.1 run `mkdir /tmp/chrome_dev_session` to create chrome_dev_session folder under tmp
+   
+   4.2 run `open -n -a /Applications/Google\ Chrome.app --args --user-data-dir="/tmp/chrome_dev_session" --disable-web-security` to start a Chrome without security check.
 
-## Running unit tests
+5. Visit `http://localhost:4200/` in new started Chrome.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+6. Click "window leveling" button multiple times, the time cost of for loop from cornerstone library will output in the console. The performance is bad from the second button click.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<a href="https://imgur.com/xdpzc6n"><img src="https://i.imgur.com/xdpzc6n.png" title="source: imgur.com" width="400"  /></a>
